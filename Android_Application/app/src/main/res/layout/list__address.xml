@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ic_clock"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_time"/>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Ho Chi Minh"
+        android:layout_toEndOf="@+id/ic_clock"
+        android:textSize="14sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_address"
+        android:layout_marginStart="8dp"
+        android:text="2020"
+        android:layout_toEndOf="@+id/ic_clock"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#dbdbde"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txt_time"/>
+</RelativeLayout>

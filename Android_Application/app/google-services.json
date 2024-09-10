@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "626313365027",
+    "firebase_url": "https://clearway-app-8dcd2-default-rtdb.firebaseio.com",
+    "project_id": "clearway-app-8dcd2",
+    "storage_bucket": "clearway-app-8dcd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626313365027:android:a3beee55cc81320abb5396",
+        "android_client_info": {
+          "package_name": "com.example.clearway_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626313365027-94q7gshqth5qf2452ork3jmm8pmrmr00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clearway_app",
+            "certificate_hash": "5f3d2f2308d5b61adf9d4b20b027dd4aa4cd70ba"
+          }
+        },
+        {
+          "client_id": "626313365027-le5m4po4er4pfk2p6m721fq5kcsvgpqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEN5mK0Ukc4uE6Sa_9J_nmCPcH6tlEQEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626313365027-le5m4po4er4pfk2p6m721fq5kcsvgpqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
