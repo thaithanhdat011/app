@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navStatistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_statistic"
+        android:title="Statistic" />
+
+    <item
+        android:id="@+id/navStores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_stores"
+        android:title="Stores" />
+
+    <item
+        android:id="@+id/navProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>

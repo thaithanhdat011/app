@@ -1,0 +1,1 @@
+Chạy server của hệ thống và trang quản lý hệ thống, code với công nghệ: NodeJS, ReactJS, MongoDB, Firebase

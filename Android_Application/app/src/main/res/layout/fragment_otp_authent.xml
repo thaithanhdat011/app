@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/layout_background"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_app"
+            android:translationY="-100dp" />
+        <LinearLayout
+            android:id="@+id/ln_NMKP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_below="@id/layout_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_NMKP"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="25dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/otp1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_radius"
+                    android:importantForAccessibility="no"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/otp2"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/border_radius"
+                    android:importantForAccessibility="no"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/otp3"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/border_radius"
+                    android:importantForAccessibility="no"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/otp4"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/border_radius"
+                    android:importantForAccessibility="no"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_new_pass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border_radius_button_blue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/btb_TMKM"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Clear Way</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyAD_7SPE6zNCGDksLlq014ZHbjq_qInxng</string>
+    <string name="txt_HoSo">Hồ sơ</string>
+    <string name="txt_MatKhau">Mật khẩu</string>
+    <string name="txt_NgonNgu">Ngôn ngữ</string>
+    <string name="txt_CheDoToi">Chế độ tối</string>
+    <string name="btn_DangXuat">Đăng Xuất</string>
+    <string name="language_english">Tiếng Anh</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="btn_Ok">OK</string>
+    <string name="msg_language_selected">Bạn đã chọn %1$s</string>
+    <string name="btn_Cancel">Hủy</string>
+    <string name="msg_no_change" translatable="false">Không có thay đổi nào</string>
+    <string name="txt_MKC" >Nhập mật khẩu cũ</string>
+    <string name="hin_KyTu">8 ký tự</string>
+    <string name="btn_TiepTuc">Tiếp tục</string>
+    <string name="txt_TMKM">Tạo mật khẩu mới</string>
+    <string name="hin_EmailDN">Email đăng nhập</string>
+    <string name="btn_LMKP">Lấy mã khôi phục</string>
+    <string name="hin_Search">Tìm kiếm</string>
+    <string name="txt_NMKM">Nhập mật khẩu mới</string>
+    <string name="txt_NLMKM">Nhập lại mật khẩu mới</string>
+    <string name="txt_NMKP">Nhập mã khôi phục</string>
+    <string name="btb_TMKM">Tạo mật khẩu mới</string>
+    <string name="btn_DangKy">Đăng ký</string>
+    <string name="txt_TCB">Tên của bạn</string>
+    <string name="hin_UserName">Tên người dùng</string>
+    <string name="txt_SDT">Số điện thoại</string>
+    <string name="hin_SDT">Số điện thoại người dùng</string>
+    <string name="txt_NTNS">Ngày tháng năm sinh</string>
+    <string name="hin_NTNS">dd/mm/yyyy</string>
+    <string name="txt_GT">Giới tính</string>
+    <string name="btn_Save">Lưu</string>
+    <string name="txt_HCM">Ho Chi Minh</string>
+    <string name="txt_nam">2020</string>
+
+</resources>

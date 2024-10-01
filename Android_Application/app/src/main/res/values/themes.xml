@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Clearway_app" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style name="Theme.Clearway_app" parent="Base.Theme.Clearway_app" />
+</resources>
